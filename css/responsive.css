@@ -1,0 +1,185 @@
+@media(max-width:575.98px) {
+
+    .heading-sub-text {
+        right: 0%;
+        font-size: 30px;
+    }
+}
+
+
+
+@media(max-width:767px) {
+
+    .navbar-toggler {
+        background-color: #fff;
+        font-size: 15px;
+    }
+
+    /*
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:hover{
+        border: none;
+        clip-path:0
+    }
+*/
+.navbar-light .navbar-nav .nav-link.active:after,
+.navbar-light .navbar-nav .nav-link:hover:after,
+.navbar-light .navbar-nav .nav-link.active:before,
+.navbar-light .navbar-nav .nav-link:hover:before{
+    opacity: 0;
+    width: 100%;
+    transition: 0.5s
+}
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li:last-child {
+        margin-right: 0;
+    }
+
+    .navber-icone {
+        text-align: center;
+    }
+
+    /*  end of menubar  */
+
+    .banner-section {
+        padding: 120px 0;
+        height: 415px;
+        
+    }
+
+    .banner-text h2 {
+        font-size: 25px
+    }
+
+
+    /*   end of banner */
+
+    .heading-sub-text {
+        font-size: 30px;
+    }
+
+
+    .about-img {
+        height: 275px;
+        margin-bottom: 25px;
+    }
+
+    .about-text p {
+        letter-spacing: 0
+    }
+
+    .about-details p {
+        font-size: 14px
+    }
+
+    /*  end of about  */
+
+    .portfolio-works .overlay-text {
+        padding-top: 6rem
+    }
+
+    /* end of work */
+
+    .send-button button {
+        margin-bottom: 15px
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+    .navbar-toggler {
+        background-color: #fff;
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li:last-child {
+        margin-right: 0;
+    }
+
+    .navber-icone {
+        text-align: center;
+    }
+
+    /*   end navbar  */
+
+    .banner-section {
+        padding: 195px 0;
+    }
+
+    /*    end banner */
+
+    .heading-sub-text {
+/*        padding-left: 185px;*/
+    }
+
+    .about-img {
+        height: 270px;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .about-text h3 {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        padding-bottom: 0;
+        letter-spacing: 0
+    }
+
+    /*    end about */
+
+    .portfolio-works .overlay-text {
+        font-size: 12px;
+        padding-top: 55px
+    }
+
+    .portfolio-works .overlay-text h3 {
+        font-size: 18px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media(min-width:992px) and (max-width:1199px) {
+    .about-img{
+        height: 365px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
